@@ -1,0 +1,255 @@
+.main {
+  margin-bottom: 35px;
+}
+.main .location {
+  line-height: 52px;
+  font-size: 16px;
+  color: #666666;
+  margin-left: 14px;
+}
+.main .location a {
+  display: inline-block;
+  font-size: 16px;
+  color: #666666;
+}
+.main .location i {
+  font-size: 18px;
+  margin: 0 6px;
+}
+.main .content {
+  overflow: hidden;
+}
+.main .content .sidebar {
+  background: #ffffff;
+  width: 198px;
+  padding: 1px 0;
+  float: left;
+}
+.main .content .sidebar dl {
+  text-align: center;
+}
+.main .content .sidebar dl dt {
+  margin: 18px 0 12px;
+}
+.main .content .sidebar dl dt a {
+  font-size: 18px;
+  color: #333333;
+}
+.main .content .sidebar dl dd {
+  margin-bottom: 10px;
+}
+.main .content .sidebar dl dd a {
+  font-size: 14px;
+  color: #666666;
+}
+.main .content .sidebar dl dd:hover a {
+  color: #000066;
+}
+.main .content .center {
+  float: left;
+  margin-left: 50px;
+  width: 952px;
+}
+.main .content .center .account {
+  background: #ffffff;
+}
+.main .content .center .account > div {
+  padding: 26px 0 0 24px;
+  overflow: hidden;
+}
+.main .content .center .account > div .name {
+  float: left;
+  width: 102px;
+}
+.main .content .center .account > div .name img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #e9eae9;
+}
+.main .content .center .account > div .name p {
+  font-size: 12px;
+  color: #333333;
+  font-family: '宋体';
+  margin-top: 7px;
+  text-align: center;
+}
+.main .content .center .account > div .safe {
+  float: left;
+  margin-left: 28px;
+}
+.main .content .center .account > div .safe h1 {
+  margin-top: 13px;
+  font-size: 14px;
+  color: #333333;
+}
+.main .content .center .account > div .safe h1 span {
+  font-size: 20px;
+}
+.main .content .center .account > div .safe .progress {
+  margin-top: 20px;
+}
+.main .content .center .account > div .safe .progress b {
+  font-size: 12px;
+  color: #333333;
+}
+.main .content .center .account > div .safe .progress img {
+  margin-left: 6px;
+}
+.main .content .center .account > div .safe .binding {
+  padding-left: 64px;
+  margin-top: 8px;
+}
+.main .content .center .account > div .safe .binding i {
+  font-size: 12px;
+  color: #333333;
+  margin-right: 17px;
+}
+.main .content .center .account > div ul {
+  float: left;
+  margin-left: 128px;
+  overflow: hidden;
+}
+.main .content .center .account > div ul li {
+  width: 110px;
+  font-size: 14px;
+  color: #333333;
+  float: left;
+  text-align: center;
+  border-left: 1px solid #cccccc;
+}
+.main .content .center .account > div ul li p {
+  font-size: 16px;
+  color: #000066;
+  margin-top: 22px;
+}
+.main .content .center .account ol {
+  border-top: 1px solid #cccccc;
+  overflow: hidden;
+  margin-top: 24px;
+}
+.main .content .center .account ol li {
+  float: left;
+  line-height: 40px;
+  border-left: 1px solid #cccccc;
+}
+.main .content .center .account ol li:nth-child(1) {
+  width: 174px;
+  padding-left: 26px;
+  border: none;
+}
+.main .content .center .account ol li:nth-child(4) {
+  width: 174px;
+  padding-right: 26px;
+  text-align: right;
+}
+.main .content .center .account ol li:nth-child(2) {
+  width: 274px;
+  text-align: center;
+}
+.main .content .center .account ol li:nth-child(3) {
+  width: 274px;
+  text-align: center;
+}
+.main .content h2 {
+  font-size: 16px;
+  color: #333333;
+  margin: 50px 0 12px 26px;
+}
+.main .content .pay-list {
+  border-collapse: collapse;
+  background: #ffffff;
+  text-align: center;
+}
+.main .content .pay-list tr th {
+  height: 40px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #333333;
+}
+.main .content .pay-list tr th:nth-of-type(2) {
+  text-align: left;
+}
+.main .content .pay-list tr td {
+  word-break: break-all;
+  height: 110px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #333333;
+  border-top: 1px solid #cccccc;
+}
+.main .content .pay-list tr td img {
+  width: 54px;
+  height: 54px;
+  border: 1px solid #cccccc;
+}
+.main .content .pay-list tr td a {
+  font-size: 14px;
+  color: #000066;
+}
+.main .content .pay-list tr td:nth-of-type(2) {
+  text-align: left;
+  font-size: 14px;
+  color: #333333;
+}
+.main .content .pay-list tr td:nth-of-type(2) span {
+  color: #15156b;
+  display: inline;
+}
+.main .guess h2 {
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+  margin: 44px 0 10px;
+}
+.main .guess h2:before {
+  content: '';
+  display: inline-block;
+  width: 520px;
+  height: 2px;
+  background: #333333;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.main .guess h2:after {
+  content: '';
+  display: inline-block;
+  width: 520px;
+  height: 2px;
+  background: #333333;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.main .guess .change {
+  text-align: right;
+  font-size: 16px;
+  color: #333333;
+}
+.main .guess .change img {
+  margin-right: 4px;
+  position: relative;
+  top: 1px;
+}
+.main .guess ul {
+  overflow: hidden;
+  background: #ffffff;
+}
+.main .guess ul li {
+  width: 200px;
+  float: left;
+}
+.main .guess ul li img {
+  width: 200px;
+  height: 150px;
+}
+.main .guess ul li h3 {
+  font-size: 20px;
+  color: #666666;
+  margin-left: 28px;
+}
+.main .guess ul li p {
+  font-size: 20px;
+  color: #cc3333;
+  margin-left: 28px;
+}

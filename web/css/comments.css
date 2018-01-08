@@ -1,0 +1,319 @@
+.main .section {
+  float: left;
+  width: 980px;
+  margin-left: 12px;
+}
+.main .section .assess {
+  background: #ffffff;
+  padding-bottom: 20px;
+  font-size: 0;
+}
+.main .section .assess .rate {
+  margin: 0 52px 0 44px;
+  display: inline-block;
+  vertical-align: top;
+}
+.main .section .assess .rate span {
+  font-size: 36px;
+  color: #000066;
+  margin-bottom: 4px;
+}
+.main .section .assess .rate i {
+  display: block;
+  font-size: 16px;
+  color: #333333;
+}
+.main .section .assess ul {
+  display: inline-block;
+  width: 270px;
+  vertical-align: top;
+}
+.main .section .assess ul li {
+  font-size: 16px;
+  color: #333333;
+  position: relative;
+  margin-bottom: 4px;
+  overflow: hidden;
+}
+.main .section .assess ul li:after {
+  content: '';
+  display: block;
+  width: 170px;
+  height: 15px;
+  background: #f0eeef;
+  float: right;
+  margin-top: 4px;
+}
+.main .section .assess ul li:first-child:after {
+  background: #000066;
+}
+.main .section .assess p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  color: #666666;
+  width: 16px;
+  margin-left: 118px;
+  position: relative;
+  top: -16px;
+}
+.main .section .assess p:before {
+  content: '';
+  display: inline-block;
+  width: 35px;
+  height: 1px;
+  background: #cccccc;
+  margin-right: 6px;
+  position: relative;
+  bottom: 20px;
+  right: 9px;
+  transform: rotate(90deg);
+}
+.main .section .assess p:after {
+  content: '';
+  display: inline-block;
+  width: 35px;
+  height: 1px;
+  background: #cccccc;
+  margin-left: 6px;
+  position: relative;
+  top: 10px;
+  right: 15px;
+  transform: rotate(90deg);
+}
+.main .section .assess ol {
+  width: 260px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 26px;
+}
+.main .section .assess ol li {
+  float: left;
+  width: 106px;
+  line-height: 21px;
+  border: 2px solid #000066;
+  font-size: 16px;
+  color: #000066;
+  text-align: center;
+  margin: 0 0 25px 20px;
+}
+.main .section .select {
+  padding-left: 23px;
+  overflow: hidden;
+}
+.main .section .select li {
+  float: left;
+  margin: 11px 34px 11px 0;
+}
+.main .section .select li label {
+  cursor: pointer;
+  font-size: 14px;
+  color: #333333;
+}
+.main .section .select li label input {
+  display: none;
+}
+.main .section .select li label input:checked + span i {
+  visibility: visible;
+}
+.main .section .select li label span {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #d0cfcf;
+  border-radius: 50%;
+  background: #ffffff;
+  margin-right: 9px;
+  position: relative;
+  top: 1px;
+}
+.main .section .select li label span i {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #979797;
+  border-radius: 50%;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  visibility: hidden;
+}
+.main .section .details {
+  background: #ffffff;
+}
+.main .section .details li {
+  overflow: hidden;
+  padding: 18px 0 8px 12px;
+  border-bottom: 1px solid #dddddd;
+}
+.main .section .details li .member {
+  width: 80px;
+  float: left;
+}
+.main .section .details li .member img {
+  width: 60px;
+  height: 58px;
+  display: block;
+  margin: 0 auto;
+}
+.main .section .details li .member p {
+  font-size: 14px;
+  color: #333333;
+  text-align: center;
+}
+.main .section .details li .comment {
+  float: left;
+  margin-left: 38px;
+  width: 617px;
+  position: relative;
+}
+.main .section .details li .comment:before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 110px;
+  background: #eaeaea;
+  position: absolute;
+  right: 1px;
+  top: -7px;
+}
+.main .section .details li .comment p {
+  font-size: 14px;
+  color: #333333;
+  margin-top: 11px;
+}
+.main .section .details li .comment span {
+  display: block;
+  font-size: 12px;
+  color: #666666;
+  margin-top: 5px;
+}
+.main .section .details li .comment .display {
+  margin-top: 26px;
+  margin-right: 36px;
+}
+.main .section .details li .comment .display .pic {
+  text-align: left;
+  padding-top: 12px;
+}
+.main .section .details li .comment .display .pic img {
+  margin-right: 25px;
+  border: 1px solid #cccccc;
+}
+.main .section .details li .comment .display .praise {
+  text-align: right;
+}
+.main .section .details li .comment .display .praise img {
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+}
+.main .section .details li .comment .display .praise i {
+  font-size: 14px;
+  color: #666666;
+  cursor: pointer;
+}
+.main .section .details li .comment .display .praise b {
+  display: inline-block;
+  font-size: 14px;
+  color: #666666;
+  margin-left: 26px;
+  width: 58px;
+  line-height: 18px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+}
+.main .section .details li .comment .reply {
+  width: 563px;
+  background: #f3f3f3;
+  position: relative;
+  margin-top: 19px;
+  padding: 10px 25px 14px 26px;
+  display: none;
+}
+.main .section .details li .comment .reply:before {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 56px;
+  top: -9px;
+  background: #f3f3f3;
+}
+.main .section .details li .comment .reply p {
+  font-size: 14px;
+  color: #666666;
+}
+.main .section .details li .comment .reply textarea {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding-top: 4px;
+  background: #ffffff;
+  border: none;
+  margin: 10px 0 8px;
+  text-indent: 1em;
+}
+.main .section .details li .comment .reply input {
+  width: 55px;
+  line-height: 25px;
+  background: #000066;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.main .section .details li .introduce {
+  margin: 12px 0 0 46px;
+  float: left;
+}
+.main .section .details li .introduce p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #666666;
+}
+.main .section .page {
+  padding: 29px 0 35px;
+  background: #ffffff;
+  text-align: center;
+  font-size: 0;
+}
+.main .section .page a {
+  display: inline-block;
+  border: 1px solid #cccccc;
+  color: #666666;
+  font-size: 16px;
+  line-height: 28px;
+  width: 68px;
+  text-align: center;
+  margin-right: 10px;
+}
+.main .section .page .num {
+  width: 38px;
+}
+.main .section .page .num:hover {
+  border: 1px solid #000066;
+  color: #000066;
+}
+.main .section .page .disabled {
+  cursor: text;
+}
+.main .section .page .disabled:hover {
+  border: 1px solid #cccccc;
+}
+.main .section .page i {
+  font-size: 16px;
+  color: #666666;
+  margin-right: 10px;
+}
+.main .section .page input {
+  width: 38px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  margin-right: 10px;
+}

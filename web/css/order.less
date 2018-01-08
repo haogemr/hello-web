@@ -1,0 +1,267 @@
+.main {
+  .location {
+    line-height: 52px;
+    font-size: 16px;
+    color: #666666;
+    margin-left: 14px;
+    a {
+      display: inline-block;
+      font-size: 16px;
+      color: #666666;
+    }
+    i {
+      font-size: 18px;
+      margin: 0 6px;
+    }
+  }
+  .content {
+    overflow: hidden;
+    .sidebar {
+      background: #ffffff;
+      width: 198px;
+      padding: 1px 0;
+      float: left;
+      dl {
+        text-align: center;
+        dt {
+          margin: 18px 0 12px;
+          a {
+            font-size: 18px;
+            color: #333333;
+          }
+        }
+        dd {
+          margin-bottom: 10px;
+          a {
+            font-size: 14px;
+            color: #666666;
+          }
+          &:hover a {
+            color: #000066;
+          }
+        }
+      }
+    }
+    .center {
+      margin-left: 50px;
+      float: left;
+      width: 952px;
+      .all_order {
+        padding-bottom: 8px;
+        border-bottom: 2px solid #cccccc;
+        font-size: 0;
+        .on {
+          color: #000066;
+        }
+        .on:after {
+          content: '';
+          display: block;
+          width: 100%;
+          height: 2px;
+          position: absolute;
+          bottom: -10px;
+          left:0;
+          background: #000066;
+        }
+        span {
+          display: inline-block;
+          font-size: 18px;
+          color: #333333;
+          padding: 0 24px;
+          height: 18px;
+          line-height: 18px;
+          position: relative;
+          border-right: 2px solid #adadad;
+          i {
+            display: inline-block;
+            height: 18px;
+            line-height: 18px;
+            font-size: 18px;
+            color: #000066;
+            margin-left: 8px;
+          }
+        }
+      }
+      .search {
+        overflow: hidden;
+        margin: 21px 0;
+        input {
+          float: left;
+          width: 255px;
+          line-height: 28px;
+          border: 1px solid #15156b;
+          font-size: 14px;
+          color: #666666;
+          text-indent: 1em;
+          background: rgba(0,0,0,0);
+        }
+        button {
+          float: left;
+          width: 92px;
+          line-height: 28px;
+          font-size: 14px;
+          color: #333333;
+          border: 1px solid #15156b;
+          border-left: none;
+          background: rgba(0,0,0,0);
+        }
+      }
+      .order_details {
+        .nav {
+          background: #ffffff;
+          overflow: hidden;
+          line-height: 40px;
+          span {
+            float: left;
+            text-align: center;
+            font-size: 16px;
+            color: #333333;
+            &:nth-child(1) {
+              width: 428px;
+            }
+            &:nth-child(2) {
+              width: 142px;
+            }
+            &:nth-child(3) {
+              width: 140px;
+            }
+            &:nth-child(4) {
+              width: 242px;
+            }
+          }
+        }
+        .details {
+          margin-top: 11px;
+          background: #ffffff;
+          .top {
+            padding-left: 18px;
+            line-height: 52px;
+            overflow: hidden;
+            span {
+              font-size: 14px;
+              color: #666666;
+              margin-right: 38px;
+            }
+            div {
+              float: right;
+              height: 52px;
+              margin-right: 70px;
+              img {
+                vertical-align: middle;
+                cursor: pointer;
+                margin-left: 4px;
+              }
+            }
+          }
+          .bottom {
+            height: 130px;
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+            overflow: hidden;
+            div {
+              box-sizing: border-box;
+              float: left;
+              text-align: center;
+              border-right: 1px solid #cccccc;
+              height: 130px;
+            }
+            .pic {
+              width: 428px;
+              padding: 10px 0 10px 10px;
+              img {
+                width: 136px;
+                height: 116px;
+                float: left;
+              }
+              h4 {
+                float: left;
+                font-size: 14px;
+                color: #333333;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                margin: 46px 0 46px 4px;
+                width: 240px;
+                text-align: left;
+                i {
+                  font-size: 14px;
+                  color: #15156b;
+                }
+              }
+            }
+            .pay {
+              width: 142px;
+              i {
+                display: block;
+                font-size: 18px;
+                color: #000066;
+                margin-top: 26px;
+              }
+              p {
+                font-size: 16px;
+                color: #666666;
+                margin-top: 4px;
+              }
+            }
+            .paid {
+              width: 140px;
+              p {
+                font-size: 16px;
+                color: #666666;
+                margin-top: 29px;
+              }
+              a {
+                margin-top: 4px;
+                display: block;
+                font-size: 16px;
+                color: #666666;
+              }
+            }
+            .operation {
+              width: 242px;
+              a {
+                display: block;
+                margin-bottom: 4px;
+                font-size: 16px;
+                color: #666666;
+                &:first-child {
+                  width: 73px;
+                  line-height: 18px;
+                  border: 1px solid #cccccc;
+                  margin: 28px auto 4px;
+                }
+              }
+            }
+          }
+        }
+        .page {
+          background: #ffffff;
+          font-size: 0;
+          text-align: center;
+          padding: 32px 0 16px;
+          .on {
+            border: 1px solid #000066;
+          }
+          .disabled {
+            cursor: text;
+          }
+          .disabled:hover {
+            border: 1px solid rgba(0,0,0,0);
+            cursor: text;
+          }
+          a {
+            font-size: 18px;
+            color: #333333;
+            margin: 0 15px;
+            border: 1px solid rgba(0,0,0,0);
+            padding: 0 5px;
+            &:hover {
+              border: 1px solid #000066;
+            }
+          }
+        }
+      }
+    }
+  }
+  margin-bottom: 35px;
+}

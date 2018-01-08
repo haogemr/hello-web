@@ -1,0 +1,135 @@
+.header {
+  background: #ffffff;
+  line-height: 202px;
+}
+.header img {
+  vertical-align: middle;
+}
+.main {
+  height: 754px;
+  box-shadow: 0 11px 5px -5px rgba(153, 153, 153, 0.6);
+  margin-bottom: 8px;
+}
+.main .container {
+  overflow: hidden;
+}
+.main .container .logo {
+  float: left;
+  height: 754px;
+  width: 550px;
+  position: relative;
+}
+.main .container .logo img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+.main .container .form {
+  float: left;
+  width: 650px;
+}
+.main .container .form table caption {
+  line-height: 110px;
+  font-size: 28px;
+  color: #333333;
+  text-align: center;
+  padding-left: 70px;
+}
+.main .container .form table tr td {
+  height: 70px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.main .container .form table tr td input {
+  font-size: 20px;
+  color: #333333;
+  text-indent: 0.5em;
+  width: 348px;
+  line-height: 38px;
+  border: 1px solid #cccccc;
+  background: rgba(0, 0, 0, 0);
+}
+.main .container .form table tr td:first-child {
+  text-align: right;
+  color: #333333;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+.main .container .form table tr td:first-child span {
+  display: inline-block;
+  margin-right: 10px;
+}
+.main .container .form table tr:nth-child(6) {
+  font-size: 0;
+}
+.main .container .form table tr:nth-child(6) input {
+  width: 124px;
+}
+.main .container .form table tr:nth-child(6) div {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  vertical-align: bottom;
+  margin: 0 20px 0 14px;
+  cursor: pointer;
+}
+.main .container .form table tr:nth-child(6) div img {
+  width: 100%;
+}
+.main .container .form table tr:nth-child(6) b {
+  display: inline-block;
+  font-size: 12px;
+  color: #15156b;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+.main .container .form table tr:nth-child(7) a {
+  display: block;
+  width: 410px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  background: #15156b;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.main .container .form table tr:nth-child(8) td {
+  text-align: center;
+  font-size: 0;
+}
+.main .container .form table tr:nth-child(8) td label {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.main .container .form table tr:nth-child(8) td label input {
+  display: none;
+}
+.main .container .form table tr:nth-child(8) td label input:checked + span {
+  background-position: -20px 0;
+}
+.main .container .form table tr:nth-child(8) td label span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/register_3.png) no-repeat;
+}
+.main .container .form table tr:nth-child(8) td i {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  font-family: '宋体';
+  margin: 0 10px;
+}
+.main .container .form table tr:nth-child(8) td b {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  font-family: '宋体';
+}
+.main .container .form table tr:nth-child(8) td b a {
+  color: #15156b;
+}

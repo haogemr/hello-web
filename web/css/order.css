@@ -1,0 +1,265 @@
+.main {
+  margin-bottom: 35px;
+}
+.main .location {
+  line-height: 52px;
+  font-size: 16px;
+  color: #666666;
+  margin-left: 14px;
+}
+.main .location a {
+  display: inline-block;
+  font-size: 16px;
+  color: #666666;
+}
+.main .location i {
+  font-size: 18px;
+  margin: 0 6px;
+}
+.main .content {
+  overflow: hidden;
+}
+.main .content .sidebar {
+  background: #ffffff;
+  width: 198px;
+  padding: 1px 0;
+  float: left;
+}
+.main .content .sidebar dl {
+  text-align: center;
+}
+.main .content .sidebar dl dt {
+  margin: 18px 0 12px;
+}
+.main .content .sidebar dl dt a {
+  font-size: 18px;
+  color: #333333;
+}
+.main .content .sidebar dl dd {
+  margin-bottom: 10px;
+}
+.main .content .sidebar dl dd a {
+  font-size: 14px;
+  color: #666666;
+}
+.main .content .sidebar dl dd:hover a {
+  color: #000066;
+}
+.main .content .center {
+  margin-left: 50px;
+  float: left;
+  width: 952px;
+}
+.main .content .center .all_order {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #cccccc;
+  font-size: 0;
+}
+.main .content .center .all_order .on {
+  color: #000066;
+}
+.main .content .center .all_order .on:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  background: #000066;
+}
+.main .content .center .all_order span {
+  display: inline-block;
+  font-size: 18px;
+  color: #333333;
+  padding: 0 24px;
+  height: 18px;
+  line-height: 18px;
+  position: relative;
+  border-right: 2px solid #adadad;
+}
+.main .content .center .all_order span i {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  font-size: 18px;
+  color: #000066;
+  margin-left: 8px;
+}
+.main .content .center .search {
+  overflow: hidden;
+  margin: 21px 0;
+}
+.main .content .center .search input {
+  float: left;
+  width: 255px;
+  line-height: 28px;
+  border: 1px solid #15156b;
+  font-size: 14px;
+  color: #666666;
+  text-indent: 1em;
+  background: rgba(0, 0, 0, 0);
+}
+.main .content .center .search button {
+  float: left;
+  width: 92px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #333333;
+  border: 1px solid #15156b;
+  border-left: none;
+  background: rgba(0, 0, 0, 0);
+}
+.main .content .center .order_details .nav {
+  background: #ffffff;
+  overflow: hidden;
+  line-height: 40px;
+}
+.main .content .center .order_details .nav span {
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  color: #333333;
+}
+.main .content .center .order_details .nav span:nth-child(1) {
+  width: 428px;
+}
+.main .content .center .order_details .nav span:nth-child(2) {
+  width: 142px;
+}
+.main .content .center .order_details .nav span:nth-child(3) {
+  width: 140px;
+}
+.main .content .center .order_details .nav span:nth-child(4) {
+  width: 242px;
+}
+.main .content .center .order_details .details {
+  margin-top: 11px;
+  background: #ffffff;
+}
+.main .content .center .order_details .details .top {
+  padding-left: 18px;
+  line-height: 52px;
+  overflow: hidden;
+}
+.main .content .center .order_details .details .top span {
+  font-size: 14px;
+  color: #666666;
+  margin-right: 38px;
+}
+.main .content .center .order_details .details .top div {
+  float: right;
+  height: 52px;
+  margin-right: 70px;
+}
+.main .content .center .order_details .details .top div img {
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: 4px;
+}
+.main .content .center .order_details .details .bottom {
+  height: 130px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  overflow: hidden;
+}
+.main .content .center .order_details .details .bottom div {
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #cccccc;
+  height: 130px;
+}
+.main .content .center .order_details .details .bottom .pic {
+  width: 428px;
+  padding: 10px 0 10px 10px;
+}
+.main .content .center .order_details .details .bottom .pic img {
+  width: 136px;
+  height: 116px;
+  float: left;
+}
+.main .content .center .order_details .details .bottom .pic h4 {
+  float: left;
+  font-size: 14px;
+  color: #333333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 46px 0 46px 4px;
+  width: 240px;
+  text-align: left;
+}
+.main .content .center .order_details .details .bottom .pic h4 i {
+  font-size: 14px;
+  color: #15156b;
+}
+.main .content .center .order_details .details .bottom .pay {
+  width: 142px;
+}
+.main .content .center .order_details .details .bottom .pay i {
+  display: block;
+  font-size: 18px;
+  color: #000066;
+  margin-top: 26px;
+}
+.main .content .center .order_details .details .bottom .pay p {
+  font-size: 16px;
+  color: #666666;
+  margin-top: 4px;
+}
+.main .content .center .order_details .details .bottom .paid {
+  width: 140px;
+}
+.main .content .center .order_details .details .bottom .paid p {
+  font-size: 16px;
+  color: #666666;
+  margin-top: 29px;
+}
+.main .content .center .order_details .details .bottom .paid a {
+  margin-top: 4px;
+  display: block;
+  font-size: 16px;
+  color: #666666;
+}
+.main .content .center .order_details .details .bottom .operation {
+  width: 242px;
+}
+.main .content .center .order_details .details .bottom .operation a {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 16px;
+  color: #666666;
+}
+.main .content .center .order_details .details .bottom .operation a:first-child {
+  width: 73px;
+  line-height: 18px;
+  border: 1px solid #cccccc;
+  margin: 28px auto 4px;
+}
+.main .content .center .order_details .page {
+  background: #ffffff;
+  font-size: 0;
+  text-align: center;
+  padding: 32px 0 16px;
+}
+.main .content .center .order_details .page .on {
+  border: 1px solid #000066;
+}
+.main .content .center .order_details .page .disabled {
+  cursor: text;
+}
+.main .content .center .order_details .page .disabled:hover {
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: text;
+}
+.main .content .center .order_details .page a {
+  font-size: 18px;
+  color: #333333;
+  margin: 0 15px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 0 5px;
+}
+.main .content .center .order_details .page a:hover {
+  border: 1px solid #000066;
+}

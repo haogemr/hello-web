@@ -1,0 +1,150 @@
+.main .location {
+  line-height: 55px;
+  font-size: 16px;
+  color: #666666;
+  margin-left: 14px;
+}
+.main .location a {
+  display: inline-block;
+  font-size: 16px;
+  color: #666666;
+}
+.main .location i {
+  font-size: 18px;
+  margin: 0 6px;
+}
+.main .shop {
+  padding: 18px 50px 20px;
+  overflow: hidden;
+  background: #ffffff;
+  margin-bottom: 22px;
+}
+.main .shop > p {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 34px;
+}
+.main .shop .details {
+  font-size: 0;
+}
+.main .shop .details img {
+  width: 98px;
+  height: 98px;
+  border: 1px solid #cccccc;
+  vertical-align: middle;
+}
+.main .shop .details h3 {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  vertical-align: middle;
+  margin: 0 278px 0 28px;
+}
+.main .shop .details h3 i {
+  font-size: 14px;
+  color: #15156b;
+}
+.main .shop .details span {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  vertical-align: middle;
+}
+.main .shop .details b {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  vertical-align: middle;
+  margin: 0 176px 0 147px;
+}
+.main .shop .details s {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  vertical-align: middle;
+}
+.main .shop .assess {
+  margin-top: 80px;
+  overflow: hidden;
+}
+.main .shop .assess img {
+  float: left;
+}
+.main .shop .assess .get_goods {
+  float: left;
+  margin-left: 44px;
+}
+.main .shop .assess .get_goods p {
+  font-size: 18px;
+  color: #333333;
+}
+.main .shop .assess .get_goods span {
+  display: block;
+  font-size: 14px;
+  color: #666666;
+  margin: 12px 0 20px;
+}
+.main .shop .assess .get_goods i {
+  display: block;
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 8px;
+}
+.main .shop .assess .get_goods i s {
+  font-size: 18px;
+  color: #000066;
+}
+.main .shop .assess .get_goods .star {
+  font-size: 0;
+}
+.main .shop .assess .get_goods .star i {
+  display: inline-block;
+  font-size: 14px;
+  color: #666666;
+}
+.main .shop .assess .get_goods .star div {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+.main .shop .assess .get_goods .star div b {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../img/star.png) no-repeat;
+  margin-right: 2px;
+  cursor: pointer;
+}
+.main .shop .assess .message {
+  float: left;
+  overflow: hidden;
+  margin-left: 88px;
+}
+.main .shop .assess .message p {
+  float: left;
+  font-size: 12px;
+  color: #666666;
+  font-family: '宋体';
+  margin-right: 10px;
+}
+.main .shop .assess .message textarea {
+  width: 512px;
+  height: 182px;
+  border: 1px solid #cccccc;
+  padding-top: 10px;
+  text-indent: 1em;
+  color: #333333;
+}
+.main .shop input {
+  float: right;
+  width: 68px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #ffffff;
+  background: #000066;
+  text-align: center;
+  border: none;
+  margin-top: 4px;
+  cursor: pointer;
+}

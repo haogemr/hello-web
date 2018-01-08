@@ -1,0 +1,71 @@
+.header {
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.header .progress {
+  overflow: hidden;
+  margin-top: 18px;
+  width: 561px;
+  height: 30px;
+  float: right;
+  background: url(../img/pay_success_1.png) no-repeat bottom;
+}
+.header .progress li {
+  width: 187px;
+  text-align: center;
+  float: left;
+}
+.main .my_shop {
+  background: #ffffff;
+  border-top: 9px solid #15156b;
+  border-radius: 4px;
+  padding-bottom: 32px;
+  margin-bottom: 20px;
+}
+.main .my_shop img {
+  display: block;
+  margin: 58px auto 30px;
+}
+.main .my_shop p {
+  font-size: 30px;
+  color: #333333;
+  text-align: center;
+}
+.main .my_shop span {
+  display: block;
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+  margin: 22px 0 16px;
+}
+.main .my_shop span b {
+  font-size: 14px;
+}
+.main .my_shop i {
+  display: block;
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+}
+.main .my_shop i s {
+  font-size: 22px;
+  color: #0000cc;
+}
+.main .my_shop div {
+  text-align: center;
+  margin-top: 56px;
+}
+.main .my_shop div b {
+  display: inline-block;
+  width: 183px;
+  line-height: 63px;
+  font-size: 26px;
+  color: #333333;
+  text-align: center;
+  border: 1px solid #000066;
+  border-radius: 15px;
+  margin-right: 80px;
+}
+.main .my_shop div b:last-child {
+  margin-right: 0;
+}

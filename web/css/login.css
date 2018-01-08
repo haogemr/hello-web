@@ -1,0 +1,142 @@
+.header {
+  background: #ffffff;
+  line-height: 202px;
+}
+.header img {
+  vertical-align: middle;
+}
+.main {
+  background: url(../img/login_2.png) no-repeat center;
+  min-height: 754px;
+}
+.main .container > img {
+  float: left;
+  margin: 180px 0 0 86px;
+}
+.main .container form {
+  float: right;
+  width: 412px;
+  height: 400px;
+  padding: 25px 56px 25px 42px;
+  background: #ffffff;
+  margin-right: 86px;
+  margin-top: 150px;
+}
+.main .container form > p {
+  font-size: 20px;
+  color: #15156b;
+  margin-bottom: 18px;
+}
+.main .container form input {
+  width: 100%;
+  line-height: 48px;
+  border: 1px solid #dddddd;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #999999;
+  text-indent: 62px;
+}
+.main .container form .user {
+  background: url(../img/login_3.png) no-repeat 10px 6px;
+}
+.main .container form .psw {
+  background: url(../img/login_4.png) no-repeat 10px 6px;
+  margin-bottom: 25px;
+}
+.main .container form .test {
+  overflow: hidden;
+}
+.main .container form .test label {
+  cursor: pointer;
+}
+.main .container form .test label img {
+  float: left;
+  position: relative;
+  bottom: 4px;
+}
+.main .container form .test label .note {
+  float: left;
+  font-size: 14px;
+  color: #666666;
+  margin-left: 10px;
+}
+.main .container form .test .forget {
+  float: right;
+  font-size: 14px;
+  color: #666666;
+  margin-right: 2px;
+}
+.main .container form .login {
+  margin-top: 20px;
+}
+.main .container form .login a:first-child {
+  display: block;
+  width: 100%;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 24px;
+  color: #ffffff;
+  background: #15156b;
+}
+.main .container form .login a:last-child {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  color: #000000;
+  font-family: '宋体';
+  margin-top: 20px;
+}
+.main .container form .login a:last-child i {
+  font-size: 16px;
+}
+.main .container form .third h3 {
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  position: relative;
+}
+.main .container form .third h3:before {
+  content: '';
+  display: block;
+  width: 146px;
+  height: 1px;
+  background: #cccccc;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.main .container form .third h3:after {
+  content: '';
+  display: block;
+  width: 146px;
+  height: 1px;
+  background: #cccccc;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.main .container form .third div {
+  text-align: center;
+  margin-top: 18px;
+}
+.main .container form .third div a {
+  display: inline-block;
+  margin-right: 26px;
+}
+.main .container form .third div a:last-child {
+  margin-right: 0;
+}
+.main .container form .third div a img {
+  vertical-align: middle;
+}
+.main .container form .third div a i {
+  display: inline-block;
+  font-size: 14px;
+  color: #666666;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+.footer {
+  padding-top: 45px;
+}

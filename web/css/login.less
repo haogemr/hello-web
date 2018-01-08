@@ -1,0 +1,146 @@
+.header {
+  background: #ffffff;
+  line-height: 202px;
+  img {
+    vertical-align: middle;
+  }
+}
+.main {
+  background: url(../img/login_2.png) no-repeat center ;
+  min-height: 754px;
+  .container {
+    >img{
+      float: left;
+      margin: 180px 0 0 86px;
+    }
+    form {
+      float: right;
+      width: 412px;
+      height: 400px;
+      padding: 25px 56px 25px 42px;
+      background: #ffffff;
+      margin-right: 86px;
+      margin-top: 150px;
+      >p {
+        font-size: 20px;
+        color: #15156b;
+        margin-bottom: 18px;
+      }
+      input {
+        width: 100%;
+        line-height: 48px;
+        border: 1px solid #dddddd;
+        margin-bottom: 30px;
+        font-size: 18px;
+        color: #999999;
+        text-indent: 62px;
+      }
+      .user {
+        background: url(../img/login_3.png) no-repeat 10px 6px;
+      }
+      .psw {
+        background: url(../img/login_4.png) no-repeat 10px 6px;
+        margin-bottom: 25px;
+      }
+      .test {
+        overflow: hidden;
+        label {
+          cursor: pointer;
+          img {
+            float: left;
+            position: relative;
+            bottom: 4px;
+          }
+          .note {
+            float: left;
+            font-size: 14px;
+            color: #666666;
+            margin-left: 10px;
+          }
+        }
+        .forget {
+          float: right;
+          font-size: 14px;
+          color: #666666;
+          margin-right: 2px;
+        }
+      }
+      .login {
+        margin-top: 20px;
+        a:first-child {
+          display: block;
+          width: 100%;
+          line-height: 45px;
+          text-align: center;
+          border-radius: 4px;
+          font-size: 24px;
+          color: #ffffff;
+          background: #15156b;
+        }
+        a:last-child {
+          display: block;
+          text-align: right;
+          font-size: 14px;
+          color: #000000;
+          font-family: '宋体';
+          margin-top: 20px;
+          i {
+            font-size: 16px;
+          }
+        }
+      }
+      .third {
+        h3 {
+          font-size: 14px;
+          color: #999999;
+          text-align: center;
+          position: relative;
+          &:before {
+            content: '';
+            display: block;
+            width: 146px;
+            height: 1px;
+            background: #cccccc;
+            position: absolute;
+            left: 0;
+            top: 10px;
+          }
+          &:after {
+            content: '';
+            display: block;
+            width: 146px;
+            height: 1px;
+            background: #cccccc;
+            position: absolute;
+            right: 0;
+            top: 10px;
+          }
+        }
+        div {
+          text-align: center;
+          margin-top: 18px;
+          a {
+            display: inline-block;
+            margin-right: 26px;
+            &:last-child {
+              margin-right: 0;
+            }
+            img {
+              vertical-align: middle;
+            }
+            i {
+              display: inline-block;
+              font-size: 14px;
+              color: #666666;
+              vertical-align: middle;
+              margin-left: 2px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.footer {
+  padding-top: 45px;
+}

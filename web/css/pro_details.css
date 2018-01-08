@@ -1,0 +1,53 @@
+.main .center {
+  margin-top: 62px;
+  overflow: hidden;
+  padding-bottom: 124px;
+}
+.main .center .section {
+  float: left;
+  width: 980px;
+  margin-left: 12px;
+}
+.main .center .section .assess {
+  background: #ffffff;
+}
+.main .center .section .assess .introduce {
+  padding: 34px 0 12px 0;
+}
+.main .center .section .assess .introduce h2 {
+  font-size: 12px;
+  color: #666666;
+  font-family: '宋体';
+  margin-left: 66px;
+}
+.main .center .section .assess .introduce h2 span {
+  color: #000066;
+}
+.main .center .section .assess .introduce .details {
+  margin-top: 25px;
+  overflow: hidden;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 54px;
+}
+.main .center .section .assess .introduce .details div {
+  float: left;
+}
+.main .center .section .assess .introduce .details div p {
+  font-size: 12px;
+  color: #666666;
+  font-family: '宋体';
+  line-height: 26px;
+}
+.main .center .section .assess .introduce .details div:nth-child(1) {
+  margin-left: 66px;
+  width: 250px;
+}
+.main .center .section .assess .introduce .details div:nth-child(2) {
+  width: 206px;
+}
+.main .center .section .assess .introduce .details div:nth-child(3) {
+  width: 232px;
+}
+.main .center .section .assess > img {
+  width: 980px;
+}

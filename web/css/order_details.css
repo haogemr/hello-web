@@ -1,0 +1,228 @@
+.main .location {
+  line-height: 52px;
+  font-size: 16px;
+  color: #666666;
+  margin-left: 14px;
+}
+.main .location a {
+  display: inline-block;
+  font-size: 16px;
+  color: #666666;
+}
+.main .location i {
+  font-size: 18px;
+  margin: 0 6px;
+}
+.main .process {
+  background: #ffffff;
+  overflow: hidden;
+}
+.main .process .assess {
+  float: left;
+  text-align: center;
+  width: 307px;
+  border-right: 1px solid #cccccc;
+  padding-top: 35px;
+  padding-bottom: 64px;
+}
+.main .process .assess p {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+.main .process .assess span {
+  display: block;
+  font-size: 24px;
+  color: #000066;
+}
+.main .process .assess a {
+  display: inline-block;
+  width: 86px;
+  line-height: 31px;
+  font-size: 18px;
+  color: #000066;
+  border: 2px solid #000066;
+  margin-top: 52px;
+}
+.main .process .publish {
+  float: left;
+  padding-top: 35px;
+  padding-bottom: 4px;
+}
+.main .process .publish p {
+  font-size: 14px;
+  color: #999999;
+  padding-left: 14px;
+}
+.main .process .publish p a {
+  color: #000066;
+}
+.main .process .publish > img {
+  margin-top: 46px;
+}
+.main .process .publish .text {
+  overflow: hidden;
+  margin: 12px 0 45px;
+}
+.main .process .publish .text li {
+  float: left;
+  width: 178px;
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+  letter-spacing: 2px;
+}
+.main .process .publish .text li:nth-child(1) {
+  width: 172px;
+  padding-left: 6px;
+}
+.main .process .publish .text li:nth-child(2) {
+  width: 172px;
+  padding-left: 6px;
+}
+.main .process .publish .text li:nth-child(5) {
+  width: 172px;
+  padding-right: 6px;
+}
+.main .process .publish .pic {
+  padding-left: 52px;
+  font-size: 16px;
+  color: #333333;
+  line-height: 20px;
+}
+.main .process .publish .pic img {
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.main .process .publish .pic i {
+  vertical-align: middle;
+  font-size: 16px;
+  color: #333333;
+}
+.main .process .publish .pic span {
+  vertical-align: middle;
+  font-size: 16px;
+  margin: 0 48px 0 20px;
+  color: #000066;
+}
+.main .deliver_goods {
+  background: #ffffff;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.main .deliver_goods .express {
+  float: left;
+  width: 267px;
+  padding: 20px;
+}
+.main .deliver_goods .express img {
+  width: 267px;
+  height: 252px;
+}
+.main .deliver_goods .express p {
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+}
+.main .deliver_goods .logistics {
+  float: left;
+  width: 892px;
+  padding-top: 28px;
+  border-left: 1px solid #cccccc;
+}
+.main .deliver_goods .logistics .top {
+  width: 672px;
+  margin: 0 auto;
+}
+.main .deliver_goods .logistics .top p {
+  text-align: right;
+  font-size: 14px;
+  color: #000066;
+}
+.main .deliver_goods .logistics .top img {
+  display: block;
+  margin: 4px auto 8px;
+}
+.main .deliver_goods .logistics .top div {
+  overflow: hidden;
+}
+.main .deliver_goods .logistics .top div b {
+  float: left;
+  font-size: 16px;
+  color: #333333;
+}
+.main .deliver_goods .logistics .top div i {
+  float: right;
+  font-size: 16px;
+  color: #333333;
+}
+.main .deliver_goods .logistics .new {
+  overflow: hidden;
+  padding-left: 52px;
+  margin-top: 20px;
+}
+.main .deliver_goods .logistics .new img {
+  float: left;
+  position: relative;
+  top: 8px;
+}
+.main .deliver_goods .logistics .new ul {
+  float: left;
+  margin-left: 20px;
+}
+.main .deliver_goods .logistics .new ul li {
+  margin-bottom: 19px;
+}
+.main .deliver_goods .logistics .new ul li i {
+  font-size: 12px;
+  color: #666666;
+  font-family: '宋体';
+  margin-right: 22px;
+}
+.main .deliver_goods .logistics .new ul li:first-child i {
+  color: #000066;
+}
+.main .personage {
+  overflow: hidden;
+  background: #ffffff;
+  margin-top: 18px;
+  margin-bottom: 24px;
+  height: 300px;
+}
+.main .personage li {
+  float: left;
+  padding: 30px 50px 0 48px;
+  width: 300px;
+  box-sizing: border-box;
+  border-right: 1px solid #cccccc;
+  height: 300px;
+}
+.main .personage li:last-child {
+  border: none;
+}
+.main .personage li h3 {
+  font-size: 16px;
+  color: #333333;
+}
+.main .personage li p {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 20px;
+}
+.main .personage li p b {
+  font-size: 14px;
+  color: #666666;
+  margin-left: 50px;
+}
+.main .personage li span {
+  display: block;
+  font-size: 14px;
+  color: #666666;
+  height: 37px;
+  margin: 8px 0;
+}
+.main .personage li i {
+  display: block;
+  font-size: 14px;
+  color: #666666;
+}

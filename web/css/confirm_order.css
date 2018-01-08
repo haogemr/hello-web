@@ -1,0 +1,421 @@
+.header {
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.header .progress {
+  overflow: hidden;
+  margin-top: 18px;
+  width: 561px;
+  height: 30px;
+  float: right;
+  background: url(../img/confirm_order_1.png) no-repeat bottom;
+}
+.header .progress li {
+  width: 187px;
+  text-align: center;
+  float: left;
+}
+.main .pay_order {
+  background: #ffffff;
+  border-top: 9px solid #15156b;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #333333;
+  padding-left: 26px;
+  line-height: 48px;
+}
+.main .address {
+  padding: 18px 44px 20px;
+  background: #ffffff;
+  margin: 13px 0 18px;
+}
+.main .address > p {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.main .address ul li {
+  font-size: 0;
+  border: 1px solid #15156b;
+  padding: 11px 10px;
+}
+.main .address ul li:first-child {
+  margin-bottom: 20px;
+}
+.main .address ul li img {
+  vertical-align: middle;
+}
+.main .address ul li > span {
+  display: inline-block;
+  font-size: 14px;
+  color: #000066;
+  vertical-align: middle;
+  margin: 0 25px 0 14px;
+}
+.main .address ul li p {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  vertical-align: middle;
+  margin: 0 55px 0 12px;
+}
+.main .address ul li > b {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  vertical-align: middle;
+}
+.main .address ul li > i {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  vertical-align: middle;
+  margin-left: 32px;
+}
+.main .address ul li div {
+  float: right;
+  margin-right: 20px;
+}
+.main .address ul li div span {
+  display: inline-block;
+  font-size: 12px;
+  color: #666666;
+  vertical-align: middle;
+}
+.main .address ul li div b {
+  display: inline-block;
+  font-size: 14px;
+  color: #15156b;
+  vertical-align: middle;
+  margin: 0 40px 0 24px;
+}
+.main .address ul li div i {
+  display: inline-block;
+  font-size: 14px;
+  color: #15156b;
+  vertical-align: middle;
+}
+.main .address > span {
+  display: block;
+  width: 98px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #000066;
+  font-family: '宋体';
+  text-align: center;
+  border: 1px solid #000066;
+  margin: 10px 0 0 104px;
+}
+.main .address > span i {
+  font-size: 18px;
+  color: #000066;
+  position: relative;
+  top: 1px;
+  right: 3px;
+}
+.main .pay {
+  background: #ffffff;
+  padding: 20px 44px 0;
+  margin-bottom: 15px;
+}
+.main .pay p {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 26px;
+}
+.main .pay div {
+  margin-bottom: 50px;
+}
+.main .pay div label {
+  cursor: pointer;
+}
+.main .pay div label input {
+  display: none;
+}
+.main .pay div label input:checked + span {
+  background: url(../img/confirm_order_3.png);
+}
+.main .pay div label input:checked + span + img {
+  border: 1px solid #000066;
+}
+.main .pay div label span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url(../img/confirm_order_4.png);
+  vertical-align: middle;
+  margin-right: 18px;
+}
+.main .pay div label img {
+  border: 1px solid rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  margin-right: 36px;
+}
+.main .pay > b {
+  display: block;
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 28px;
+}
+.main .pay ul {
+  width: 1030px;
+  overflow: hidden;
+}
+.main .pay ul li {
+  float: left;
+  margin-right: 34px;
+  margin-bottom: 30px;
+}
+.main .pay ul li label {
+  cursor: pointer;
+}
+.main .pay ul li label input {
+  display: none;
+}
+.main .pay ul li label input:checked + i {
+  background: url(../img/confirm_order_3.png);
+}
+.main .pay ul li label input:checked + i + img {
+  border: 1px solid #000066;
+}
+.main .pay ul li label i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url(../img/confirm_order_4.png);
+  vertical-align: middle;
+  margin-right: 18px;
+}
+.main .pay ul li label img {
+  border: 1px solid rgba(0, 0, 0, 0);
+  vertical-align: middle;
+}
+.main .pay ul li label img:first-child {
+  margin-right: 24px;
+}
+.main .information {
+  padding-top: 10px;
+  background: #ffffff;
+}
+.main .information p {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 40px;
+  padding-left: 44px;
+}
+.main .information .column {
+  font-size: 0;
+}
+.main .information .column span {
+  display: inline-block;
+  font-size: 16px;
+  color: #333333;
+  line-height: 28px;
+  border-right: 1px solid #cccccc;
+  text-align: center;
+}
+.main .information .column span:nth-child(1) {
+  width: 160px;
+}
+.main .information .column span:nth-child(2) {
+  width: 284px;
+}
+.main .information .column span:nth-child(3) {
+  width: 270px;
+}
+.main .information .column span:nth-child(4) {
+  width: 270px;
+}
+.main .information .column span:nth-child(5) {
+  width: 212px;
+  border-right: none;
+}
+.main .information .details {
+  padding-left: 40px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.main .information .details > img {
+  float: left;
+}
+.main .information .details .goods {
+  float: left;
+  margin-left: 20px;
+}
+.main .information .details .goods div:first-child {
+  font-size: 0;
+  text-align: center;
+}
+.main .information .details .goods div:first-child h3 {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  vertical-align: middle;
+  width: 243px;
+  text-align: left;
+}
+.main .information .details .goods div:first-child span {
+  display: inline-block;
+  font-size: 14px;
+  color: #15156b;
+  vertical-align: middle;
+  width: 316px;
+}
+.main .information .details .goods div:first-child div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 223px;
+}
+.main .information .details .goods div:first-child div img {
+  vertical-align: middle;
+  cursor: pointer;
+}
+.main .information .details .goods div:first-child div input {
+  width: 30px;
+  line-height: 13px;
+  text-align: center;
+  font-size: 12px;
+  color: #333333;
+  font-family: '宋体';
+  vertical-align: middle;
+  margin: 0 10px;
+}
+.main .information .details .goods div:first-child b {
+  display: inline-block;
+  font-size: 12px;
+  color: #15156b;
+  font-family: '宋体';
+  vertical-align: middle;
+  width: 212px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.main .information .details .goods div:last-child {
+  margin-top: 20px;
+}
+.main .information .details .goods div:last-child:before {
+  content: '';
+  display: block;
+  width: 1000px;
+  height: 1px;
+  background: #cccccc;
+  position: relative;
+  top: -4px;
+}
+.main .information .details .goods div:last-child span {
+  display: inline-block;
+  font-size: 12px;
+  color: #999999;
+  font-family: '宋体';
+  width: 207px;
+  text-align: left;
+}
+.main .information .details .goods div:last-child b {
+  display: inline-block;
+  font-size: 12px;
+  color: #15156b;
+  font-family: '宋体';
+  margin-left: 10px;
+}
+.main .information .details .goods div:last-child img {
+  float: right;
+  margin-right: 94px;
+  cursor: pointer;
+}
+.main .price .integral {
+  overflow: hidden;
+  padding: 0 20px 0 44px;
+  margin: 23px 0 13px;
+}
+.main .price .integral span {
+  float: left;
+  font-size: 14px;
+  color: #000066;
+  width: 108px;
+  line-height: 34px;
+  border: 1px solid #15156b;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.main .price .integral span s {
+  font-size: 16px;
+  color: #000066;
+  position: absolute;
+  display: block;
+  transform: rotate(90deg);
+  margin-right: 10px;
+  right: 0;
+  top: 0;
+}
+.main .price .integral i {
+  float: right;
+  font-size: 16px;
+  color: #333333;
+}
+.main .price .integral i s {
+  color: #000066;
+}
+.main .price .get_goods {
+  background: #ffffff;
+  padding: 14px 21px 17px;
+  text-align: right;
+}
+.main .price .get_goods div span {
+  font-size: 16px;
+  color: #333333;
+  margin-right: 30px;
+}
+.main .price .get_goods div span s {
+  color: #000066;
+}
+.main .price .get_goods div i {
+  font-size: 16px;
+  color: #333333;
+}
+.main .price .get_goods div b {
+  font-size: 22px;
+  color: #000066;
+}
+.main .price .get_goods div b s {
+  font-size: 16px;
+}
+.main .price .get_goods p {
+  font-size: 12px;
+  color: #333333;
+  font-family: '宋体';
+  margin-top: 10px;
+}
+.main .price .get_goods p:last-child {
+  font-size: 14px;
+  font-family: '微软雅黑';
+}
+.main .price .submit {
+  overflow: hidden;
+  background: #dcdcdc;
+}
+.main .price .submit input {
+  float: right;
+  width: 224px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  background: #15156b;
+  border: none;
+}
+.main .price > a {
+  display: block;
+  font-size: 18px;
+  color: #000066;
+  height: 60px;
+}
+.main .price > a i {
+  font-size: 18px;
+  font-family: '宋体';
+  color: #000066;
+  margin-left: 2px;
+}
+.main .price > a i:last-child {
+  margin-right: 8px;
+}

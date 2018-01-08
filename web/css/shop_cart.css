@@ -1,0 +1,325 @@
+.header {
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.header .progress {
+  overflow: hidden;
+  margin-top: 18px;
+  width: 561px;
+  height: 30px;
+  float: right;
+  background: url(../img/shop_cart_1.png) no-repeat bottom;
+}
+.header .progress li {
+  width: 187px;
+  text-align: center;
+  float: left;
+}
+.main .my_shop {
+  background: #ffffff;
+  border-top: 9px solid #15156b;
+  border-radius: 4px;
+  line-height: 49px;
+}
+.main .my_shop span {
+  display: inline-block;
+  font-size: 18px;
+  color: #333333;
+  border-right: 1px solid #cccccc;
+  line-height: 18px;
+  padding-right: 18px;
+  margin: 0 19px 0 26px;
+}
+.main .my_shop i {
+  display: inline-block;
+  font-size: 14px;
+  color: #15156b;
+}
+.main .list {
+  height: 28px;
+  overflow: hidden;
+  padding: 15px 0;
+}
+.main .list li {
+  line-height: 28px;
+  float: left;
+  border-left: 1px solid #cccccc;
+  font-size: 16px;
+  color: #333333;
+  text-align: center;
+}
+.main .list li:nth-child(1) {
+  width: 160px;
+  border-left: none;
+}
+.main .list li:nth-child(2) {
+  width: 282px;
+}
+.main .list li:nth-child(3) {
+  width: 270px;
+}
+.main .list li:nth-child(4) {
+  width: 272px;
+}
+.main .list li:nth-child(5) {
+  width: 212px;
+}
+.main .details {
+  background: #ffffff;
+}
+.main .details li {
+  line-height: 185px;
+  border-bottom: 1px solid #cccccc;
+}
+.main .details li label {
+  cursor: pointer;
+}
+.main .details li label > input {
+  display: none;
+}
+.main .details li label > input:checked + span {
+  background: url(../img/shop_cart_4.png) no-repeat;
+}
+.main .details li label span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #adadad;
+  margin: 0 30px 0 48px;
+  vertical-align: middle;
+}
+.main .details li > img {
+  width: 124px;
+  height: 72px;
+  vertical-align: middle;
+}
+.main .details li > div {
+  display: inline-block;
+  line-height: 0;
+  margin: 0 20px;
+  vertical-align: middle;
+}
+.main .details li > div .top {
+  border-bottom: 1px solid #cccccc;
+  padding-right: 12px;
+  padding-bottom: 14px;
+}
+.main .details li > div .top h3 {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  padding-left: 8px;
+}
+.main .details li > div .top b {
+  font-size: 14px;
+  color: #15156b;
+  margin-left: 190px;
+}
+.main .details li > div .top b i {
+  font-size: 14px;
+  color: #15156b;
+}
+.main .details li > div .top div {
+  display: inline-block;
+  margin-left: 205px;
+  font-size: 0;
+}
+.main .details li > div .top div input {
+  width: 30px;
+  line-height: 13px;
+  border: 1px solid #999999;
+  text-align: center;
+  font-size: 12px;
+  color: #333333;
+  font-family: '宋体';
+  vertical-align: middle;
+  margin: 0 10px 0 10px;
+}
+.main .details li > div .top div img {
+  vertical-align: middle;
+  cursor: pointer;
+}
+.main .details li > div .top > i {
+  margin-left: 230px;
+  font-size: 12px;
+  font-family: '宋体';
+  color: #15156b;
+  cursor: pointer;
+}
+.main .details li > div .bottom {
+  overflow: hidden;
+  padding-top: 4px;
+}
+.main .details li > div .bottom b {
+  font-size: 12px;
+  color: #999999;
+  font-family: '宋体';
+  padding-left: 8px;
+}
+.main .details li > div .bottom i {
+  font-size: 12px;
+  color: #15156b;
+  font-family: '宋体';
+  margin-left: 90px;
+}
+.main .details li > div .bottom img {
+  float: right;
+  margin-right: 16px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.main .integral {
+  line-height: 124px;
+}
+.main .integral > span {
+  display: inline-block;
+  width: 108px;
+  line-height: 34px;
+  text-align: center;
+  font-size: 14px;
+  color: #000066;
+  border: 2px solid #15156b;
+  margin-left: 44px;
+  cursor: pointer;
+}
+.main .integral > span i {
+  display: inline-block;
+  transform: rotate(90deg);
+  font-size: 16px;
+  position: relative;
+  top: 1px;
+  left: 6px;
+}
+.main .integral .right {
+  float: right;
+  line-height: 25px;
+  margin-top: 34px;
+  width: 278px;
+  overflow: hidden;
+}
+.main .integral .right div:first-child {
+  font-size: 14px;
+  color: #333333;
+  float: right;
+}
+.main .integral .right div:first-child i {
+  color: #000066;
+}
+.main .integral .right div:first-child span {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+}
+.main .integral .right div:last-child {
+  font-size: 16px;
+  color: #333333;
+  float: right;
+}
+.main .integral .right div:last-child span {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  font-size: 18px;
+  color: #000066;
+}
+.main .integral .right div:last-child span i {
+  font-size: 18px;
+  color: #000066;
+}
+.main .balance {
+  line-height: 40px;
+  background: #dcdcdc;
+  overflow: hidden;
+}
+.main .balance label {
+  cursor: pointer;
+}
+.main .balance label input {
+  display: none;
+}
+.main .balance label input:checked + span {
+  background: url('../img/shop_cart_4.png') no-repeat;
+}
+.main .balance label span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #7d7d7d;
+  margin: 0 13px 0 44px;
+}
+.main .balance label i {
+  font-size: 14px;
+  color: #666666;
+}
+.main .balance b {
+  display: inline-block;
+  float: right;
+  width: 224px;
+  line-height: 40px;
+  background: #15156b;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.main .guess h2 {
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+  margin: 44px 0 10px;
+}
+.main .guess h2:before {
+  content: '';
+  display: inline-block;
+  width: 520px;
+  height: 2px;
+  background: #333333;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.main .guess h2:after {
+  content: '';
+  display: inline-block;
+  width: 520px;
+  height: 2px;
+  background: #333333;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.main .guess .change {
+  text-align: right;
+  font-size: 16px;
+  color: #333333;
+  cursor: pointer;
+}
+.main .guess .change img {
+  margin-right: 4px;
+  position: relative;
+  top: 1px;
+}
+.main .guess ul {
+  overflow: hidden;
+  margin-bottom: 74px;
+}
+.main .guess ul li {
+  width: 200px;
+  float: left;
+  margin-bottom: 24px;
+  background: #ffffff;
+}
+.main .guess ul li img {
+  width: 200px;
+  height: 150px;
+}
+.main .guess ul li h3 {
+  font-size: 20px;
+  color: #666666;
+  margin-left: 28px;
+}
+.main .guess ul li p {
+  font-size: 20px;
+  color: #cc3333;
+  margin-left: 28px;
+}
